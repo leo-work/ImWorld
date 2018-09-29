@@ -1,0 +1,1245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0F580F7F608D4BBD9BE30B56 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8B9A09A516CA407880D1245D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				330496C14FB644119C87AC78 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AF03EC010CE945699643C2E2 /* IMWorld_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1A11D95D32743F0BD6D0A83 /* Build configuration list for PBXAggregateTarget "IMWorld_autogen" */;
+			buildPhases = (
+				6762ADED698942A0AB7E1EAB /* CMake Rules */,
+			);
+			dependencies = (
+				F464C9B584884692AAA7ADBF /* PBXTargetDependency */,
+			);
+			name = IMWorld_autogen;
+			productName = IMWorld_autogen;
+		};
+		F53E5150B4464A34AA749BF6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 69372CB13E7945DB8F441212 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				9EA5EC65FEE344ADB02E9593 /* CMake Rules */,
+			);
+			dependencies = (
+				5FE5E4773740441C9D158FC1 /* PBXTargetDependency */,
+				C1081267F8464A54A53A110A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01099D84BCB84FC1A0DC4B41 /* mocs_compilation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1F90CB9B44E438D9819C0 /* mocs_compilation.cpp */; };
+		14F3A8E91BA6414397FB6E9B /* CRoundLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C6933E0B0674DCF90B362F2 /* CRoundLabel.cpp */; };
+		1A2A4FA28A5E41BC8D48A873 /* DataReceive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EF1208AA254954A3E50961 /* DataReceive.cpp */; };
+		1C4E9FD18E784AFB852B33B8 /* qnchatmessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8694D1C234A7A90755950 /* qnchatmessage.cpp */; };
+		3303E1E54C9C489B96718723 /* mainwindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAB2826D00B04E0AA21B7798 /* mainwindow.mm */; };
+		37405B9C544E451E9CCFA0BB /* QImageTextEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86D013F62F08474DBD7F5EA6 /* QImageTextEdit.cpp */; };
+		57A9A8FDB16E4DF5825CEFB7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D119EF3A44F042FAA17D4D3C /* main.cpp */; };
+		890B4BAC98F249A8A7BA2496 /* logindialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 65DE6EA793184816B1DCC84E /* logindialog.cpp */; };
+		94622B17899B4F80AB232EA3 /* QUserWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68197558B4EC484EA30CD377 /* QUserWidget.cpp */; };
+		98CB778B9C4A45AB8411282C /* AppSearchLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 751D413CB98F46F8A58C8973 /* AppSearchLine.cpp */; };
+		B3F10D5FD99A476B94D022BF /* iconhelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F6A24AA8847447893081E53 /* iconhelper.cpp */; };
+		CD273BF6CB2E4E6E939AE0EB /* QMacTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7C31D2F83004114A3E56923 /* QMacTools.mm */; };
+		D3F1D3E9A05041B692B7FA60 /* DataLocalSave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97C4229C83A04721AD94867F /* DataLocalSave.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EAED0C7E5BD43DBA675A98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC187FADB104BFAB54ED71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F580F7F608D4BBD9BE30B56;
+			remoteInfo = ZERO_CHECK;
+		};
+		2C7A892511FC4B3F824D42B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC187FADB104BFAB54ED71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F580F7F608D4BBD9BE30B56;
+			remoteInfo = ZERO_CHECK;
+		};
+		5A02ACEB9E66422FAE192CB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC187FADB104BFAB54ED71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F580F7F608D4BBD9BE30B56;
+			remoteInfo = ZERO_CHECK;
+		};
+		83D16EF8E2A047DBB3AD3499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC187FADB104BFAB54ED71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85984A05E0A846E2BBFF6E2A;
+			remoteInfo = IMWorld;
+		};
+		9F908C2709254B74951DF214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC187FADB104BFAB54ED71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF03EC010CE945699643C2E2;
+			remoteInfo = IMWorld_autogen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0599BE3749F14431BE5BA473 /* mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainwindow.h; path = src/client/mainwindow.h; sourceTree = SOURCE_ROOT; };
+		12A0AD3644524CBF8885C772 /* mainwindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mainwindow.ui; path = src/client/mainwindow.ui; sourceTree = SOURCE_ROOT; };
+		19C0DD0E68964A28B95A3AC5 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1D9539EC04064653B703B47D /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/client/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		21EF1208AA254954A3E50961 /* DataReceive.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DataReceive.cpp; path = src/client/DataReceive.cpp; sourceTree = SOURCE_ROOT; };
+		2BFD1C63123D4DA48E64D942 /* ui_mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_mainwindow.h; path = build/src/client/ui_mainwindow.h; sourceTree = SOURCE_ROOT; };
+		3A737F649BB347219D90BB45 /* QUserWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = QUserWidget.h; path = src/client/QUserWidget.h; sourceTree = SOURCE_ROOT; };
+		3BE9D9A38E4942098026C3C8 /* DataReceive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DataReceive.h; path = src/client/DataReceive.h; sourceTree = SOURCE_ROOT; };
+		4891E63ECCF84DE8A5D666E0 /* AppSearchLine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = AppSearchLine.h; path = src/client/AppSearchLine.h; sourceTree = SOURCE_ROOT; };
+		4A7A50CE6D114F88801ABD20 /* logindialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = logindialog.h; path = src/client/logindialog.h; sourceTree = SOURCE_ROOT; };
+		4AB1F90CB9B44E438D9819C0 /* mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = build/src/client/IMWorld_autogen/mocs_compilation.cpp; sourceTree = SOURCE_ROOT; };
+		4C154B6C4A874FBA82CF7EF8 /* .DS_Store */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = .DS_Store; path = src/client/Mac/.DS_Store; sourceTree = SOURCE_ROOT; };
+		5C6933E0B0674DCF90B362F2 /* CRoundLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CRoundLabel.cpp; path = src/client/CRoundLabel.cpp; sourceTree = SOURCE_ROOT; };
+		6345E77B99DD4D6DA853A166 /* res.qrc */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = res.qrc; path = src/client/resources/res.qrc; sourceTree = SOURCE_ROOT; };
+		6418BA6CA655467EA97972E5 /* qnchatmessage.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = qnchatmessage.h; path = src/client/qnchatmessage.h; sourceTree = SOURCE_ROOT; };
+		65DE6EA793184816B1DCC84E /* logindialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = logindialog.cpp; path = src/client/logindialog.cpp; sourceTree = SOURCE_ROOT; };
+		68197558B4EC484EA30CD377 /* QUserWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QUserWidget.cpp; path = src/client/QUserWidget.cpp; sourceTree = SOURCE_ROOT; };
+		6AC7A21887664B5A89721190 /* ui_logindialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_logindialog.h; path = build/src/client/ui_logindialog.h; sourceTree = SOURCE_ROOT; };
+		751D413CB98F46F8A58C8973 /* AppSearchLine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AppSearchLine.cpp; path = src/client/AppSearchLine.cpp; sourceTree = SOURCE_ROOT; };
+		78226441B2DB47D49160B6A6 /* DataLocalSave.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = DataLocalSave.h; path = src/client/DataLocalSave.h; sourceTree = SOURCE_ROOT; };
+		7EFA8FCBBDD24816A36D2B9E /* QImageTextEdit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = QImageTextEdit.h; path = src/client/QImageTextEdit.h; sourceTree = SOURCE_ROOT; };
+		7F6A24AA8847447893081E53 /* iconhelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = iconhelper.cpp; path = src/client/iconhelper.cpp; sourceTree = SOURCE_ROOT; };
+		86D013F62F08474DBD7F5EA6 /* QImageTextEdit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QImageTextEdit.cpp; path = src/client/QImageTextEdit.cpp; sourceTree = SOURCE_ROOT; };
+		8CC8694D1C234A7A90755950 /* qnchatmessage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = qnchatmessage.cpp; path = src/client/qnchatmessage.cpp; sourceTree = SOURCE_ROOT; };
+		93435A5B539C4DF28B5B7BB9 /* QMacTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = QMacTools.h; path = src/client/Mac/QMacTools.h; sourceTree = SOURCE_ROOT; };
+		97C4229C83A04721AD94867F /* DataLocalSave.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DataLocalSave.cpp; path = src/client/DataLocalSave.cpp; sourceTree = SOURCE_ROOT; };
+		A0C75537322F44DF93DE030F /* iconhelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iconhelper.h; path = src/client/iconhelper.h; sourceTree = SOURCE_ROOT; };
+		B3B81B1C215B6E26007025C9 /* SqlLiteTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SqlLiteTable.h; path = src/client/SqlLiteTable.h; sourceTree = "<group>"; };
+		BBEAE8A37AA247DCACD16AFC /* CRoundLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CRoundLabel.h; path = src/client/CRoundLabel.h; sourceTree = SOURCE_ROOT; };
+		C36D508A29A14B5EA6AEBE36 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/client/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C7C31D2F83004114A3E56923 /* QMacTools.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = QMacTools.mm; path = src/client/Mac/QMacTools.mm; sourceTree = SOURCE_ROOT; };
+		D119EF3A44F042FAA17D4D3C /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/client/main.cpp; sourceTree = SOURCE_ROOT; };
+		D75DEBF9529A4AA2A994A45A /* IMWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = IMWorld; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB2826D00B04E0AA21B7798 /* mainwindow.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = mainwindow.mm; path = src/client/mainwindow.mm; sourceTree = SOURCE_ROOT; };
+		E0FA5E8EFA364D429493B34C /* myhelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = myhelper.h; path = src/client/myhelper.h; sourceTree = SOURCE_ROOT; };
+		E7021B1272CB4F089960B6EE /* logindialog.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = logindialog.ui; path = src/client/logindialog.ui; sourceTree = SOURCE_ROOT; };
+		F363A7DDBE204660A5F148A2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		057B9E83BD674DD7856BDCFB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				76443F9DCA93402EB21F8387 /* CMake Rules */,
+				19C0DD0E68964A28B95A3AC5 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		195BD71A917043B2B97D3915 = {
+			isa = PBXGroup;
+			children = (
+				057B9E83BD674DD7856BDCFB /* ALL_BUILD */,
+				9407007C0EE84C89A82B4F73 /* ZERO_CHECK */,
+				4E91C58D6D244FD78DA96E63 /* IMWorld */,
+				D30A44B94E2B44E8AC99BF14 /* IMWorld_autogen */,
+				ABB4A9105F49493693F5C976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24620E34D1214A7F9533009C /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				4C154B6C4A874FBA82CF7EF8 /* .DS_Store */,
+				93435A5B539C4DF28B5B7BB9 /* QMacTools.h */,
+				C7C31D2F83004114A3E56923 /* QMacTools.mm */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+		3B90E5FF7B6448AA97062DCB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB1F90CB9B44E438D9819C0 /* mocs_compilation.cpp */,
+				751D413CB98F46F8A58C8973 /* AppSearchLine.cpp */,
+				5C6933E0B0674DCF90B362F2 /* CRoundLabel.cpp */,
+				97C4229C83A04721AD94867F /* DataLocalSave.cpp */,
+				21EF1208AA254954A3E50961 /* DataReceive.cpp */,
+				86D013F62F08474DBD7F5EA6 /* QImageTextEdit.cpp */,
+				68197558B4EC484EA30CD377 /* QUserWidget.cpp */,
+				7F6A24AA8847447893081E53 /* iconhelper.cpp */,
+				65DE6EA793184816B1DCC84E /* logindialog.cpp */,
+				D119EF3A44F042FAA17D4D3C /* main.cpp */,
+				DAB2826D00B04E0AA21B7798 /* mainwindow.mm */,
+				8CC8694D1C234A7A90755950 /* qnchatmessage.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4E91C58D6D244FD78DA96E63 /* IMWorld */ = {
+			isa = PBXGroup;
+			children = (
+				3B90E5FF7B6448AA97062DCB /* Source Files */,
+				FA67C29FAF0F42F3948BA397 /* Header Files */,
+				FF8524A696774D268AEB6380 /* Ui */,
+				24620E34D1214A7F9533009C /* Mac */,
+				C36D508A29A14B5EA6AEBE36 /* CMakeLists.txt */,
+				6345E77B99DD4D6DA853A166 /* res.qrc */,
+			);
+			name = IMWorld;
+			sourceTree = "<group>";
+		};
+		76443F9DCA93402EB21F8387 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9407007C0EE84C89A82B4F73 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				DDFCAD0631394A158F5C4A41 /* CMake Rules */,
+				F363A7DDBE204660A5F148A2 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		ABB4A9105F49493693F5C976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D75DEBF9529A4AA2A994A45A /* IMWorld */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4EE3289B1324B6AA5447C74 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D30A44B94E2B44E8AC99BF14 /* IMWorld_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE3289B1324B6AA5447C74 /* CMake Rules */,
+				1D9539EC04064653B703B47D /* CMakeLists.txt */,
+			);
+			name = IMWorld_autogen;
+			sourceTree = "<group>";
+		};
+		DDFCAD0631394A158F5C4A41 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FA67C29FAF0F42F3948BA397 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4891E63ECCF84DE8A5D666E0 /* AppSearchLine.h */,
+				BBEAE8A37AA247DCACD16AFC /* CRoundLabel.h */,
+				78226441B2DB47D49160B6A6 /* DataLocalSave.h */,
+				3BE9D9A38E4942098026C3C8 /* DataReceive.h */,
+				7EFA8FCBBDD24816A36D2B9E /* QImageTextEdit.h */,
+				3A737F649BB347219D90BB45 /* QUserWidget.h */,
+				A0C75537322F44DF93DE030F /* iconhelper.h */,
+				4A7A50CE6D114F88801ABD20 /* logindialog.h */,
+				0599BE3749F14431BE5BA473 /* mainwindow.h */,
+				E0FA5E8EFA364D429493B34C /* myhelper.h */,
+				6418BA6CA655467EA97972E5 /* qnchatmessage.h */,
+				B3B81B1C215B6E26007025C9 /* SqlLiteTable.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FF8524A696774D268AEB6380 /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7A21887664B5A89721190 /* ui_logindialog.h */,
+				2BFD1C63123D4DA48E64D942 /* ui_mainwindow.h */,
+				E7021B1272CB4F089960B6EE /* logindialog.ui */,
+				12A0AD3644524CBF8885C772 /* mainwindow.ui */,
+			);
+			name = Ui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85984A05E0A846E2BBFF6E2A /* IMWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7E0C1A40E34FF792A0D03E /* Build configuration list for PBXNativeTarget "IMWorld" */;
+			buildPhases = (
+				0BF27DF97322490294A4C9EF /* CMake Rules */,
+				6434577846E94791AD3E261D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723E9EE98B14449893621709 /* PBXTargetDependency */,
+				B537474C0BF240BE84EC8BD5 /* PBXTargetDependency */,
+			);
+			name = IMWorld;
+			productName = IMWorld;
+			productReference = D75DEBF9529A4AA2A994A45A /* IMWorld */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC187FADB104BFAB54ED71F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = D633FB95D3764C18A6E54368 /* Build configuration list for PBXProject "IMWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 195BD71A917043B2B97D3915;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				F53E5150B4464A34AA749BF6 /* ALL_BUILD */,
+				0F580F7F608D4BBD9BE30B56 /* ZERO_CHECK */,
+				85984A05E0A846E2BBFF6E2A /* IMWorld */,
+				AF03EC010CE945699643C2E2 /* IMWorld_autogen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF27DF97322490294A4C9EF /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leo/LEO/IM/IMWorld/build/src/client -f /Users/leo/LEO/IM/IMWorld/build/src/client/CMakeScripts/IMWorld_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		330496C14FB644119C87AC78 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leo/LEO/IM/IMWorld/build -f /Users/leo/LEO/IM/IMWorld/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6762ADED698942A0AB7E1EAB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leo/LEO/IM/IMWorld/build/src/client -f /Users/leo/LEO/IM/IMWorld/build/src/client/CMakeScripts/IMWorld_autogen_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9EA5EC65FEE344ADB02E9593 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/leo/LEO/IM/IMWorld/build -f /Users/leo/LEO/IM/IMWorld/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6434577846E94791AD3E261D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01099D84BCB84FC1A0DC4B41 /* mocs_compilation.cpp in Sources */,
+				98CB778B9C4A45AB8411282C /* AppSearchLine.cpp in Sources */,
+				14F3A8E91BA6414397FB6E9B /* CRoundLabel.cpp in Sources */,
+				D3F1D3E9A05041B692B7FA60 /* DataLocalSave.cpp in Sources */,
+				1A2A4FA28A5E41BC8D48A873 /* DataReceive.cpp in Sources */,
+				CD273BF6CB2E4E6E939AE0EB /* QMacTools.mm in Sources */,
+				37405B9C544E451E9CCFA0BB /* QImageTextEdit.cpp in Sources */,
+				94622B17899B4F80AB232EA3 /* QUserWidget.cpp in Sources */,
+				B3F10D5FD99A476B94D022BF /* iconhelper.cpp in Sources */,
+				890B4BAC98F249A8A7BA2496 /* logindialog.cpp in Sources */,
+				57A9A8FDB16E4DF5825CEFB7 /* main.cpp in Sources */,
+				3303E1E54C9C489B96718723 /* mainwindow.mm in Sources */,
+				1C4E9FD18E784AFB852B33B8 /* qnchatmessage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE5E4773740441C9D158FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85984A05E0A846E2BBFF6E2A /* IMWorld */;
+			targetProxy = 83D16EF8E2A047DBB3AD3499 /* PBXContainerItemProxy */;
+		};
+		723E9EE98B14449893621709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF03EC010CE945699643C2E2 /* IMWorld_autogen */;
+			targetProxy = 9F908C2709254B74951DF214 /* PBXContainerItemProxy */;
+		};
+		B537474C0BF240BE84EC8BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F580F7F608D4BBD9BE30B56 /* ZERO_CHECK */;
+			targetProxy = 2C7A892511FC4B3F824D42B5 /* PBXContainerItemProxy */;
+		};
+		C1081267F8464A54A53A110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F580F7F608D4BBD9BE30B56 /* ZERO_CHECK */;
+			targetProxy = 5A02ACEB9E66422FAE192CB9 /* PBXContainerItemProxy */;
+		};
+		F464C9B584884692AAA7ADBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F580F7F608D4BBD9BE30B56 /* ZERO_CHECK */;
+			targetProxy = 0EAED0C7E5BD43DBA675A98D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		129DE5052ECA4852BB0221B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		12C0DA4681A9492B8455F0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		2A63A6BEE3E34A86A02763D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		492EEDD6DD254F93AF984CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/build;
+			};
+			name = Debug;
+		};
+		6D25CC44BF934683AE89158D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		6FDE6C303F29422C838349C1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/leo/LEO/IM/IMWorld/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ENV_MACOSX,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_MULTIMEDIA_LIB,
+					QT_NETWORK_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/build/src/client/IMWorld_autogen/include_RelWithDebInfo,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/leo/LEO/IM/IMWorld/build/lib /usr/local/Cellar/ffmpeg/3.4.2/lib /Users/leo/anaconda3/lib /usr/local/lib /use/lib64";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/leo/LEO/IM/IMWorld/build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/LEO/IM/IMWorld/build/lib,
+					"/usr/local/Cellar/ffmpeg/3.4.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/ffmpeg/3.4.2/lib,
+					"/Users/leo/anaconda3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/anaconda3/lib,
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/use/lib64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/use/lib64,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-Wall",
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AppKit,
+					/Users/leo/anaconda3/lib/libQt5Widgets.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Multimedia.5.9.5.dylib,
+					"-lQt5WebSockets",
+					"-lQt5Sql",
+					"-lavcodec",
+					"-lavutil",
+					"-lfdk-aac",
+					/Users/leo/anaconda3/lib/libQt5Gui.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Network.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Core.5.9.5.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/leo/anaconda3/include/qt /Users/leo/anaconda3/include/qt/QtWidgets /Users/leo/anaconda3/include/qt/QtGui /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers /Users/leo/anaconda3/include/qt/QtCore /Users/leo/anaconda3/./mkspecs/macx-clang /Users/leo/anaconda3/include/qt/QtMultimedia /Users/leo/anaconda3/include/qt/QtNetwork";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		726706A82C064DF988130A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		802683594B934B908B142326 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		827174FA94354BE88C31D440 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		8C4B4470EB10467A82C02D4F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		9627E7152DCE480BBA7EE162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/leo/LEO/IM/IMWorld/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ENV_MACOSX,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					QT_MULTIMEDIA_LIB,
+					QT_NETWORK_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/build/src/client/IMWorld_autogen/include_Debug,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/leo/LEO/IM/IMWorld/build/lib /usr/local/Cellar/ffmpeg/3.4.2/lib /Users/leo/anaconda3/lib /usr/local/lib /use/lib64";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/leo/LEO/IM/IMWorld/build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/LEO/IM/IMWorld/build/lib,
+					"/usr/local/Cellar/ffmpeg/3.4.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/ffmpeg/3.4.2/lib,
+					"/Users/leo/anaconda3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/anaconda3/lib,
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/use/lib64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/use/lib64,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-Wall",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AppKit,
+					/Users/leo/anaconda3/lib/libQt5Widgets.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Multimedia.5.9.5.dylib,
+					"-lQt5WebSockets",
+					"-lQt5Sql",
+					"-lavcodec",
+					"-lavutil",
+					"-lfdk-aac",
+					/Users/leo/anaconda3/lib/libQt5Gui.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Network.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Core.5.9.5.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/leo/anaconda3/include/qt /Users/leo/anaconda3/include/qt/QtWidgets /Users/leo/anaconda3/include/qt/QtGui /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers /Users/leo/anaconda3/include/qt/QtCore /Users/leo/anaconda3/./mkspecs/macx-clang /Users/leo/anaconda3/include/qt/QtMultimedia /Users/leo/anaconda3/include/qt/QtNetwork";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		A69F7C1C2A8A4E6CA01FA8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/leo/LEO/IM/IMWorld/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ENV_MACOSX,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_MULTIMEDIA_LIB,
+					QT_NETWORK_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/build/src/client/IMWorld_autogen/include_Release,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/leo/LEO/IM/IMWorld/build/lib /usr/local/Cellar/ffmpeg/3.4.2/lib /Users/leo/anaconda3/lib /usr/local/lib /use/lib64";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/leo/LEO/IM/IMWorld/build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/LEO/IM/IMWorld/build/lib,
+					"/usr/local/Cellar/ffmpeg/3.4.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/ffmpeg/3.4.2/lib,
+					"/Users/leo/anaconda3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/anaconda3/lib,
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/use/lib64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/use/lib64,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-Wall",
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AppKit,
+					/Users/leo/anaconda3/lib/libQt5Widgets.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Multimedia.5.9.5.dylib,
+					"-lQt5WebSockets",
+					"-lQt5Sql",
+					"-lavcodec",
+					"-lavutil",
+					"-lfdk-aac",
+					/Users/leo/anaconda3/lib/libQt5Gui.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Network.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Core.5.9.5.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/leo/anaconda3/include/qt /Users/leo/anaconda3/include/qt/QtWidgets /Users/leo/anaconda3/include/qt/QtGui /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers /Users/leo/anaconda3/include/qt/QtCore /Users/leo/anaconda3/./mkspecs/macx-clang /Users/leo/anaconda3/include/qt/QtMultimedia /Users/leo/anaconda3/include/qt/QtNetwork";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		AE18EA83090A4AB4A5CF8EEE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		AF987C5776D64083B5A59261 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/leo/LEO/IM/IMWorld/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					ENV_MACOSX,
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					QT_MULTIMEDIA_LIB,
+					QT_NETWORK_LIB,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/build/src/client/IMWorld_autogen/include_MinSizeRel,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/leo/LEO/IM/IMWorld/build/lib /usr/local/Cellar/ffmpeg/3.4.2/lib /Users/leo/anaconda3/lib /usr/local/lib /use/lib64";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/leo/LEO/IM/IMWorld/build/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/LEO/IM/IMWorld/build/lib,
+					"/usr/local/Cellar/ffmpeg/3.4.2/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/ffmpeg/3.4.2/lib,
+					"/Users/leo/anaconda3/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/leo/anaconda3/lib,
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/use/lib64/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/use/lib64,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-Wall",
+					"-DNDEBUG",
+					"-fPIC",
+					"'-std=gnu++11'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					AppKit,
+					/Users/leo/anaconda3/lib/libQt5Widgets.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Multimedia.5.9.5.dylib,
+					"-lQt5WebSockets",
+					"-lQt5Sql",
+					"-lavcodec",
+					"-lavutil",
+					"-lfdk-aac",
+					/Users/leo/anaconda3/lib/libQt5Gui.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Network.5.9.5.dylib,
+					/Users/leo/anaconda3/lib/libQt5Core.5.9.5.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				SYSTEM_HEADER_SEARCH_PATHS = "/Users/leo/anaconda3/include/qt /Users/leo/anaconda3/include/qt/QtWidgets /Users/leo/anaconda3/include/qt/QtGui /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/OpenGL.framework/Headers /Users/leo/anaconda3/include/qt/QtCore /Users/leo/anaconda3/./mkspecs/macx-clang /Users/leo/anaconda3/include/qt/QtMultimedia /Users/leo/anaconda3/include/qt/QtNetwork";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C2223C16CC0E412EA6AE81C5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		C44A517B643241EEB016F800 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/build;
+			};
+			name = MinSizeRel;
+		};
+		E4B5B8A19D0F410999D24A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		EDD357B8DAE6476EBFB7C476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build/src/client,
+					/Users/leo/LEO/IM/IMWorld/src/client,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IMWorld_autogen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/src/client;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		FC197F431BCA4DB990A47FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build/build;
+			};
+			name = Release;
+		};
+		FC666351B98249D598A228AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/leo/LEO/IM/IMWorld/build,
+					/Users/leo/LEO/IM/IMWorld,
+					/Users/leo/LEO/IM/IMWorld/include,
+					/usr/local/Cellar/ffmpeg/3.4.2/include,
+					/usr/local/include,
+					/Users/leo/anaconda3/include/qt,
+				);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/leo/LEO/IM/IMWorld/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A7E0C1A40E34FF792A0D03E /* Build configuration list for PBXNativeTarget "IMWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9627E7152DCE480BBA7EE162 /* Debug */,
+				A69F7C1C2A8A4E6CA01FA8E5 /* Release */,
+				AF987C5776D64083B5A59261 /* MinSizeRel */,
+				6FDE6C303F29422C838349C1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69372CB13E7945DB8F441212 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				726706A82C064DF988130A0F /* Debug */,
+				FC666351B98249D598A228AE /* Release */,
+				6D25CC44BF934683AE89158D /* MinSizeRel */,
+				802683594B934B908B142326 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B9A09A516CA407880D1245D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B5B8A19D0F410999D24A7B /* Debug */,
+				12C0DA4681A9492B8455F0BC /* Release */,
+				827174FA94354BE88C31D440 /* MinSizeRel */,
+				AE18EA83090A4AB4A5CF8EEE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1A11D95D32743F0BD6D0A83 /* Build configuration list for PBXAggregateTarget "IMWorld_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129DE5052ECA4852BB0221B3 /* Debug */,
+				EDD357B8DAE6476EBFB7C476 /* Release */,
+				8C4B4470EB10467A82C02D4F /* MinSizeRel */,
+				C2223C16CC0E412EA6AE81C5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D633FB95D3764C18A6E54368 /* Build configuration list for PBXProject "IMWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				492EEDD6DD254F93AF984CD0 /* Debug */,
+				FC197F431BCA4DB990A47FF8 /* Release */,
+				C44A517B643241EEB016F800 /* MinSizeRel */,
+				2A63A6BEE3E34A86A02763D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC187FADB104BFAB54ED71F /* Project object */;
+}

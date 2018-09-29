@@ -1,0 +1,118 @@
+QWidget#centralWidget{
+	border:1px solid #1B89CA;
+	border-radius:0px;
+	background: rgba(0, 0, 255, 80);
+
+}
+QWidget#IM_widget{
+	margin-bottom: 0px; 
+	border:1px solid #1B89CA;
+	border-radius:0px;
+}
+QWidget#widget_6, QWidget#widget_12,QWidget#widget_13{
+	background: #FFFFFF;
+	border: 0px;
+}
+
+QLabel#label{
+	color:#FFFFFF;
+}
+QLabel#label_2, QLabel#label_3{
+	color:#7d7f87;
+}
+
+QLabel#label_4, QLabel#label_5, QLabel#label_6{
+	color:#95a5f5;;
+}
+
+QLabel#closeLabel_{
+	color:#FFFFFF;
+}
+
+
+QListWidget{
+	background:white;
+	color:black;
+	border:none;
+}
+ 
+QListWidget::item{
+	border:none;
+    height: 54px;
+}
+
+QMenu{
+ 	background-color:rgb(224,224,224); /*整个背景*/
+ 	border: 4px; /*solid rgb(255,241,241);/*整个菜单边缘*/ 
+ 	border-radius: 10px;  
+}
+ 
+QMenu::item{
+ 	font-size: 16pt; 
+ 	color:black;  /*字体颜色*/
+/*	border: 1px solid rgb(60,60,60);    /*item选框*/
+ 	/*background-color:rgb(224,224,224);*/
+ 	padding-left: 30px;
+ 	margin:2px 2px;/*设置菜单项的外边距*/
+ 	width: 100px;
+ 	height:20px;
+}
+
+QMenu::item:selected{
+	background:rgb(252,240,193);  /*被选中item的背景色*/
+	color:black;
+}
+
+QListWidget::item:hover{
+    background:rgb(252,240,193)
+}
+ 
+QListWidget::item:selected{
+	background:rgb(252,233,161);
+	color:black;
+}
+ 
+QScrollBar:vertical {               
+    background:transparent;
+    width:9px;
+    margin: 0px 0px 2px 0px;
+}
+ 
+QScrollBar::handle:vertical {
+    background: rgb(195, 195, 195);
+    min-height: 20px;
+    border-radius: 3px;
+}
+ 
+QScrollBar::handle:vertical:hover{
+    background:rgba(0,0,0,30%);
+}
+ 
+QScrollBar::add-line:vertical {
+    height: 0px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+ 
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QLineEdit#account_lineEdit,QLineEdit#password_lineEdit{
+
+	border:1px solid #eaeaea;
+	border-radius:14px;
+}
+QLabel#qrCode_label{
+	color: rgba(143, 214, 43, 80);
+}
+QLineEdit#Search_lineEdit{
+	height:29px;
+	border:1px solid #eaeaea;
+	border-radius:14px;
+}
+
+
+

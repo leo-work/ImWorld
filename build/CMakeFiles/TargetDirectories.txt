@@ -1,0 +1,4 @@
+/Users/leo/LEO/IM/IMWorld/build/CMakeFiles/ALL_BUILD.dir
+/Users/leo/LEO/IM/IMWorld/build/CMakeFiles/ZERO_CHECK.dir
+/Users/leo/LEO/IM/IMWorld/build/src/client/CMakeFiles/IMWorld.dir
+/Users/leo/LEO/IM/IMWorld/build/src/client/CMakeFiles/IMWorld_autogen.dir

@@ -1,0 +1,18 @@
+QWidget#centralWidget{
+	border:1px solid #1B89CA;
+	border-radius:0px;
+	background: rgba(0, 0, 255, 80);
+
+}
+QWidget#IM_widget{
+	margin-top: 50px; 
+	margin-bottom: 0px; 
+	background: #FFFFFF;
+	border:1px solid #1B89CA;
+	border-radius:0px;
+}
+
+.QFrame{
+	border:1px solid #5CACEE;
+	border-radius:5px;
+}

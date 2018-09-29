@@ -1,0 +1,23 @@
+{
+	"cmd": 100001,
+	"data":[
+	{"userid": 0, "nickname": "你的世界我不懂", "image": 0},
+	{"userid": 1, "nickname": "你的世界我不懂", "image": 1},
+	{"userid": 2, "nickname": "你的世界我不懂", "image": 2},
+	{"userid": 3, "nickname": "你的世界我不懂", "image": 3},
+	{"userid": 4, "nickname": "你的世界我不懂", "image": 4},
+	{"userid": 5, "nickname": "你的世界我不懂", "image": 5},
+	{"userid": 6, "nickname": "你的世界我不懂", "image": 6},
+	{"userid": 7, "nickname": "你的世界我不懂", "image": 7},
+	{"userid": 8, "nickname": "你的世界我不懂", "image": 8},
+	{"userid": 9, "nickname": "你的世界我不懂", "image": 9},
+	{"userid": 10, "nickname": "你的世界我不懂", "image": 10},
+	{"userid": 11, "nickname": "你的世界我不懂", "image": 11},
+	{"userid": 12, "nickname": "你的世界我不懂", "image": 12}
+	],
+	"success": 1,
+	"error":{
+		"cmd": 1000,
+		"message":"sql error"
+	}
+}
